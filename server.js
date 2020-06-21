@@ -4,12 +4,13 @@ const htmlRoutes = require("./routes/htmlRoutes");
 
 // Initialize the app and create a port
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3369;
 
 // Set up body parsing, static, and route middleware
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static("public"));
+//Does this mean the these routes will be interpreted like app.use("/api" = /apiRoutes)
 app.use("/api", apiRoutes);
 app.use("/", htmlRoutes);
 
