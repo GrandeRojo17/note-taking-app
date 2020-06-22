@@ -1,19 +1,15 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "A Full-stack web app for creating and saving notes",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "fs": "0.0.1-security",
-    "nodemon": "^2.0.4",
-    "util": "^0.12.3",
-    "uuidv1": "^1.6.14"
+    "express": "^4.16.4",
+    "uuid": "^3.4.0"
   }
 }
