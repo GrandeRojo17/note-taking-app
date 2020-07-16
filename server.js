@@ -5,7 +5,7 @@ const htmlRoutes = require("./routes/htmlRoutes.js");
 // Initialize the app and create a port
 const app = express();
 
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8090;
 
 // Set up body parsing, static, and route middleware
 app.use(express.json());
